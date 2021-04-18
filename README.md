@@ -1,9 +1,9 @@
 # edgar-degas
-A focus on Edgar Degas at the MET
+
 
 # Project Overview
 
-## Project Name
+## Edgar Degas at the MET
 
 A focus on Edgar Degas at the MET.
 
