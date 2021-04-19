@@ -80,13 +80,8 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 | Total | H | 30 hrs |  |  |
 
 ## Code Snippet
+``` JSON 
 ```
-const getEdgarDegas = async () => {
-  try {
-    const response = await axios.get(url) 
-    const select = document.querySelector('#artwork')
-```
-
 
 
 
