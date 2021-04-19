@@ -29,7 +29,8 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 ```
 ## Wireframes
 
-<img width="1020" alt="wireframe" src="https://user-images.githubusercontent.com/80069382/115225100-b0d58f80-a0db-11eb-9e45-01eb873f1ced.png">
+<img width="1025" alt="wireframe" src="https://user-images.githubusercontent.com/80069382/115244810-4d0a9100-a0f2-11eb-8898-aa6423c44afa.png">
+
  
 
 #### MVP 
