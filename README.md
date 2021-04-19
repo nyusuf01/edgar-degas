@@ -36,11 +36,13 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 #### MVP 
 
 - Drop down form for artworks
-- Displays art work along with information about the art presented
+- Display art work along with information about the art presented
 - Mobile compatibility
 
 
 #### PostMVP  
+- Create a tab or slideshow gallery for the enlisted artwork.
+- Randomly choose "art of the week"
 
 
 ## Project Schedule
