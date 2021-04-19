@@ -65,18 +65,18 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML & CSS Structure | H | 1hr | .5hrs |  |
+| HTML & CSS Structure | H | 2hr | .5hrs |  |
 | Pseudocode Javascript | M | 3hrs | 1hr |  |
-| Adding clickable buttons & event listeners | H | 4hrs | 1hr |  |
-| Add/test axios API call | H | 6hrs | 1hr |  |
-| Pulling appropriate data from API | H | 6hrs | 2hrs | |
+| Adding clickable buttons & event listeners | H | 3hrs | 1hr |  |
+| Add/test axios API call | H | 3hrs | 1hr |  |
+| Pulling appropriate data from API | H | 3hrs | 2hrs | |
 | JS clear results page before next results show | H | 3hrs | .5hrs |  |
 | Incorporating Flexbox | M | 1hr | 3hrs |  |
 | Styling CSS | M | 3hrs | 4hrs |  |
 | Setting & styling Media Queries in CSS | M | 3hrs | 6hrs |  |
 | Styling buttons | L | 1.5hrs | 2hrs |  |
 | Setting Background  | L | .5hrs | 1hr |  |
-| Total | H | 32hrs | 35hrs |  |
+| Total | H | 26hrs | 22hrs |  |
 
 ## Code Snippet
 
