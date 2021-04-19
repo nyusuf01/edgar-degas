@@ -66,18 +66,18 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML & CSS Structure | H | 2hr | .5hrs |  |
-| Pseudocode Javascript | M | 3hrs | 1hr |  |
-| Adding clickable buttons & event listeners | H | 3hrs | 1hr |  |
-| Add/test axios API call | H | 3hrs | 1hr |  |
-| Pulling appropriate data from API | H | 3hrs | 2hrs | |
-| JS clear results page before next results show | H | 3hrs | .5hrs |  |
-| Incorporating Flexbox | M | 3hr | 3hrs |  |
-| Styling CSS | M | 3hrs | 4hrs |  |
-| Setting & styling Media Queries in CSS | M | 3hrs | 6hrs |  |
-| Styling buttons | L | 2 hrs | 2hrs |  |
-| Setting Background  | L | 2 hrs | 1hr |  |
-| Total | H | 30 hrs | 22hrs |  |
+| HTML & CSS Structure | H | 2hr |  |  |
+| Pseudocode Javascript | M | 3hrs |  |  |
+| Adding clickable buttons & event listeners | H | 3hrs |  |  |
+| Add/test axios API call | H | 3hrs |  |  |
+| Pulling appropriate data from API | H | 3hrs |  | |
+| JS clear results page before next results show | H | 3hrs |  |  |
+| Incorporating Flexbox | M | 3hr |  |  |
+| Styling CSS | M | 3hrs |  |  |
+| Setting & styling Media Queries in CSS | M | 3hrs |  |  |
+| Styling buttons | L | 2 hrs |  |  |
+| Setting Background  | L | 2 hrs |  |  |
+| Total | H | 30 hrs |  |  |
 
 ## Code Snippet
 ```
