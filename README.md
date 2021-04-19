@@ -17,11 +17,8 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+<img width="1020" alt="wireframe" src="https://user-images.githubusercontent.com/80069382/115225100-b0d58f80-a0db-11eb-9e45-01eb873f1ced.png">
+ 
 
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
@@ -64,19 +61,26 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| HTML & CSS Structure	H	1hr	.5hrs	.5hrs
+Pseudocode Javascript	M	2hrs	1hr	1hr
+Adding clickable buttons & event listeners	H	3hrs	1hr	1hr
+Add/test axios API call	H	3hrs	1hr	1hr
+Pulling appropriate data from API	H	3hrs	2hrs	2hrs
+Add/test second API call	H	3hrs	2hrs	2hrs
+Pulling appropriate data from second API	H	3hrs	11hrs	11hrs
+JS clear results page before next results show	H	3hrs	.5hrs	.5hrs
+Incorporating Flexbox	M	1hr	3hrs	3hrs
+Styling recipe cards in CSS	M	3hrs	4hrs	4hrs
+Setting & styling Media Queries in CSS	M	3hrs	6hrs	6hrs
+Styling buttons	L	1.5hrs	2hrs	2hrs
+Setting Background image	L	.5hrs	1hr	1hr
+Total	H	30hrs	35hrs	35hrs
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes. 
+ 
