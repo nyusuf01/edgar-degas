@@ -1,7 +1,5 @@
 # edgar-degas
 
-# edgar-degas
-
 
 # Project Overview
 
