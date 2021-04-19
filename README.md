@@ -12,42 +12,47 @@ A focus on Edgar Degas at the MET.
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API and Data Sample
-
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
+Artwork title : "Edouard Manet, seated, Holding his hat"
+```{
+    "objectID": 333813,
+    "isHighlight": true,
+    "accessionNumber": "19.51.7",
+    "accessionYear": "1919",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP805813.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805813.jpg",
+    "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/dp/original/dp19.51.7.R.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/DT640.jpg",
+        "https://images.metmuseum.org/CRDImages/dp/original/19.51.7.jpg"
+    ],
+```
 ## Wireframes
 
 <img width="1020" alt="wireframe" src="https://user-images.githubusercontent.com/80069382/115225100-b0d58f80-a0db-11eb-9e45-01eb873f1ced.png">
  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Drop down form for artworks
+- Displays art work along with information about the art presented
+
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|April 19| Project Approval | Incomplete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Pseudocode / actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
-|April 23| Presentations | Incomplete
+|April 19| Prompt / Wireframes / Priority Matrix / Timeframes 
+|April 20| HTML / Pseudocode / Add axios API call
+|April 21| Pulling appropriate date from API / second testing
+|April 22| JS clear results / CSS
+|April 23| Presentation
+
 
 ## Priority Matrix
 
@@ -55,15 +60,12 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML & CSS Structure | H | 1hr | .5hrs |  |
-| Pseudocode Javascript | M | 2hrs | 1hr |  |
-| Adding clickable buttons & event listeners | H | 3hrs | 1hr |  |
+| Pseudocode Javascript | M | 3hrs | 1hr |  |
+| Adding clickable buttons & event listeners | H | 4hrs | 1hr |  |
 | Add/test axios API call | H | 3hrs | 1hr |  |
 | Pulling appropriate data from API | H | 3hrs | 2hrs | |
 | Add/test second API call | H | 3hrs | 2hrs |  |
@@ -74,11 +76,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Setting & styling Media Queries in CSS | M | 3hrs | 6hrs |  |
 | Styling buttons | L | 1.5hrs | 2hrs |  |
 | Setting Background image | L | .5hrs | 1hr |  |
-| Total | H | 30hrs | 35hrs | 35hrs |
+| Total | H | 32hrs | 35hrs |  |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+
 
 
 
