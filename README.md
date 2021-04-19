@@ -41,6 +41,7 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 
 #### PostMVP  
+- Let image populate page when clicked
 - Create a tab or slideshow gallery for the enlisted artwork.
 - Randomly choose "art of the week"
 
