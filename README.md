@@ -35,20 +35,17 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 #### MVP 
 
-- Drop down form for artworks
-- Display art work along with information about the art presented
-- Mobile compatibility
+- Allows users to select art piece from drop down menu
+- Display image, title, Bio ( year of birth until year of death ) 
+- Delete previously rendered content upon new search
 
 
 #### PostMVP  
-- Let image populate page when clicked
 - Create a tab or slideshow gallery for the enlisted artwork.
+- Create image module when user clicks on image
 - Randomly choose "art of the week"
 
-
 ## Project Schedule
-
-
 
 |  Day | Deliverable | Status
 |---|---| ---|
