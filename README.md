@@ -9,7 +9,7 @@ A focus on Edgar Degas at the MET.
 
 ## Project Description
 
-Creating a virtual gallery that highlights the vast collection of artworks by Edgar Degas presented at the MET.
+Creating a virtual gallery that highlights a number of artworks by Edgar Degas from the vast collection presented at the MET.
 
 ## API and Data Sample
 Artwork title : "Edouard Manet, seated, Holding his hat"
