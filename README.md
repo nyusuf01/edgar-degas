@@ -9,7 +9,7 @@ A focus on Edgar Degas at the MET.
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Creating a virtual gallery that highlights the vast collection of artworks by Edgar Degas presented at the MET.
 
 ## API and Data Sample
 Artwork title : "Edouard Manet, seated, Holding his hat"
@@ -36,6 +36,7 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 - Drop down form for artworks
 - Displays art work along with information about the art presented
+- Mobile compatibility
 
 
 #### PostMVP  
@@ -56,7 +57,8 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+<img width="605" alt="matrix" src="https://user-images.githubusercontent.com/80069382/115229023-7f12f780-a0e0-11eb-8cdc-ed040a2f61cf.png">
+
 
 ## Timeframes
 
@@ -66,16 +68,14 @@ Include a full list of features that have been prioritized based on the `Time an
 | HTML & CSS Structure | H | 1hr | .5hrs |  |
 | Pseudocode Javascript | M | 3hrs | 1hr |  |
 | Adding clickable buttons & event listeners | H | 4hrs | 1hr |  |
-| Add/test axios API call | H | 3hrs | 1hr |  |
-| Pulling appropriate data from API | H | 3hrs | 2hrs | |
-| Add/test second API call | H | 3hrs | 2hrs |  |
-| Pulling appropriate data from second API| H | 3hrs | 11hrs |  |
+| Add/test axios API call | H | 6hrs | 1hr |  |
+| Pulling appropriate data from API | H | 6hrs | 2hrs | |
 | JS clear results page before next results show | H | 3hrs | .5hrs |  |
 | Incorporating Flexbox | M | 1hr | 3hrs |  |
-| Styling recipe cards in CSS | M | 3hrs | 4hrs |  |
+| Styling CSS | M | 3hrs | 4hrs |  |
 | Setting & styling Media Queries in CSS | M | 3hrs | 6hrs |  |
 | Styling buttons | L | 1.5hrs | 2hrs |  |
-| Setting Background image | L | .5hrs | 1hr |  |
+| Setting Background  | L | .5hrs | 1hr |  |
 | Total | H | 32hrs | 35hrs |  |
 
 ## Code Snippet
