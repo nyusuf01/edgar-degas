@@ -80,6 +80,11 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 ## Code Snippet
 
+const getEdgarDegas = async () => {
+  try {
+    const response = await axios.get(url) 
+    const select = document.querySelector('#artwork')
+
 
 
 
