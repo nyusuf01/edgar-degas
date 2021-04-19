@@ -61,20 +61,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML & CSS Structure	H	1hr	.5hrs	.5hrs
-Pseudocode Javascript	M	2hrs	1hr	1hr
-Adding clickable buttons & event listeners	H	3hrs	1hr	1hr
-Add/test axios API call	H	3hrs	1hr	1hr
-Pulling appropriate data from API	H	3hrs	2hrs	2hrs
-Add/test second API call	H	3hrs	2hrs	2hrs
-Pulling appropriate data from second API	H	3hrs	11hrs	11hrs
-JS clear results page before next results show	H	3hrs	.5hrs	.5hrs
-Incorporating Flexbox	M	1hr	3hrs	3hrs
-Styling recipe cards in CSS	M	3hrs	4hrs	4hrs
-Setting & styling Media Queries in CSS	M	3hrs	6hrs	6hrs
-Styling buttons	L	1.5hrs	2hrs	2hrs
-Setting Background image	L	.5hrs	1hr	1hr
-Total	H	30hrs	35hrs	35hrs
+| HTML & CSS Structure | H | 1hr | .5hrs |  |
+| Pseudocode Javascript | M | 2hrs | 1hr |  |
+| Adding clickable buttons & event listeners | H | 3hrs | 1hr |  |
+| Add/test axios API call | H | 3hrs | 1hr |  |
+| Pulling appropriate data from API | H | 3hrs | 2hrs | |
+| Add/test second API call | H | 3hrs | 2hrs |  |
+| Pulling appropriate data from second API| H | 3hrs | 11hrs |  |
+| JS clear results page before next results show | H | 3hrs | .5hrs |  |
+| Incorporating Flexbox | M | 1hr | 3hrs |  |
+| Styling recipe cards in CSS | M | 3hrs | 4hrs |  |
+| Setting & styling Media Queries in CSS | M | 3hrs | 6hrs |  |
+| Styling buttons | L | 1.5hrs | 2hrs |  |
+| Setting Background image | L | .5hrs | 1hr |  |
+| Total | H | 30hrs | 35hrs | 35hrs |
 
 ## Code Snippet
 
