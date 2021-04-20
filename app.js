@@ -58,14 +58,24 @@ function setOptions(list) {
     // return list
   }
 }
+
 function renderArt(art) {
   const artTitle = document.createElement('h3')
   artTitle.innerText = art.title
   document.querySelector(`#artwork-info`).append(artTitle)
 
   const imageForArt = document.createElement('img')
-  imageForArt.src = art.primaryImage
+  imageForArt.src = art.primaryImageSmall
   document.querySelector('#artwork-info').append(imageForArt)
+
+  const artClassification = document.createElement('h4')
+  artClassification.innerText = 'Classification: ' + art.objectName
+  document.querySelector('#artwork-info').append(artClassification)
+
+  const artDepartment = document.createElement('h4')
+  artDepartment.innerText = 'Found in: The ' + art.department + ' department.'
+  document.querySelector('#artwork-info').append(artDepartment)
+
 }
 
   // Get option tag value
