@@ -1,65 +1,56 @@
-const artArray = [438817, 436121, 436173, 359362,
-  196439, 333813, 438821, 436964,
-  436944, 437835, 435962, 435882,
-  435868, 437153, 437654, 438815,
-  339751]
-
-
-  
-
-    // Add HTML connect all files
-    // Completed
-
-    //dropdown menu
-    const getOptions = async (value) => {
-
-    
-      try {
-        console.log(artArray)
-        // for (let i = 0; i < artArray.length; i++) {
-      
-        artArray.forEach(async (art) => {
-          let response = await axios.get(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${art}?=&=`)
-          console.log(response)
-          setOptions(response.data)
-          renderArt(response.data)
-        }) 
-        
- 
-          // let artList = Object.keys(response.data.title)
-          // setOptions(artList)
-          // return artList
-        // }
-      }
-      
-      catch (error) {
-        console.error(error)
-      }
+// dynamic drop down menu
+const artistIdArray = async () => {
+    try {
+      const url = 'https://collectionapi.metmuseum.org/public/collection/v1/search?isHighlight=true&q=degas'
+      const response = await axios.get(url)
+      // console.log(response.data.objectIDs)
+      // createOptionTags(response.data.objectIDs)
+    } catch (error) {
+      console.log(error)
     }
-  
+}
+artistIdArray()
 
-  getOptions()
-  
+// form option tags
+function createOptionTags(dataArr) {
+  // console.log(dataArr)
+  const selectTag = document.querySelector('select')
+  dataArr.forEach((item) => {
+    // console.log(item)
+    let optionTag = document.createElement('option')
+    optionTag.id = item
+    optionTag.textContent = item
+    selectTag.append(optionTag)
+  })
+}
 
-  // Create the form option tags
-function setOptions(list) {
-    console.log(list)
-    const selectTag = document.querySelector('#select-artwork')
-  if (list === undefined) {
-      return null
-    } else {
-      
-    
-      const optionTag = document.createElement('option')
-      optionTag.textContent = list.title
-      optionTag.value = list.title
-      selectTag.append(optionTag)
-    
-    // return list
+// Get option tag value
+function getFormValue(e) {
+  e.preventDefault()
+  const optionValue = document.querySelector('select').value
+  // console.log(optionValue)
+  getArtwork(optionValue)
+}
+
+// Create event handler
+const form = document.querySelector('form')
+form.addEventListener('submit', getFormValue)
+
+// API request for artwork
+async function getArtwork(inputValue) {
+  try {
+    const artURL = `https://collectionapi.metmuseum.org/public/collection/v1/objects/${inputValue}`
+    const artResponse = await axios.get(artURL)
+    console.log(artResponse.data)
+    renderArt(artResponse.data)
+  } catch (error) {
+    console.error(error)
   }
 }
 
+// Create dynamic tag and append to DOM
 function renderArt(art) {
+  removeRender()
   const artTitle = document.createElement('h3')
   artTitle.innerText = art.title
   document.querySelector(`#artwork-info`).append(artTitle)
@@ -68,70 +59,32 @@ function renderArt(art) {
   imageForArt.src = art.primaryImageSmall
   document.querySelector('#artwork-info').append(imageForArt)
 
-  const artClassification = document.createElement('h4')
+  const artDate = document.createElement('h5')
+  artDate.innerText = 'Date: ' + art.objectDate
+  document.querySelector('#artwork-info').append(artDate)
+
+  const artClassification = document.createElement('h5')
   artClassification.innerText = 'Classification: ' + art.objectName
   document.querySelector('#artwork-info').append(artClassification)
 
-  const artDepartment = document.createElement('h4')
+  const artMedium = document.createElement('h5')
+  artMedium.innerText = 'Medium: ' + art.medium
+  document.querySelector('#artwork-info').append(artMedium)
+
+  const artDimensions = document.createElement('h5')
+  artDimensions.innerText = 'Dimensions: ' + art.dimensions
+  document.querySelector('#artwork-info').append(artDimensions)
+
+  const artDepartment = document.createElement('h5')
   artDepartment.innerText = 'Found in: The ' + art.department + ' department.'
   document.querySelector('#artwork-info').append(artDepartment)
 
 }
 
-  // Get option tag value
-
-  function getValue(e) {
-    e.preventDefault()
-    const optionValue = document.querySelector('#select-artwork').value
-    getOptions(optionValue)
-    // getArtImage(optionValue)
-    // return optionValue
+// Remove previous info
+function removeRender() {
+  const removeDiv = document.querySelector('#artwork-info')
+  while (removeDiv.lastChild) {
+    removeDiv.removeChild(removeDiv.lastChild)
   }
-
-  // Form Eventhandler
-  const form = document.querySelector('#select-artwork')
-  form.addEventListener("submit", getValue)
-
-  // API request for art image
-  // getArtImage https://collectionapi.metmuseum.org/public/collection/v1/objects/${artArray[i]}?=&=&primaryImage
-    
-  // async function getArtImage(artValue) {
-  
-  //   try {
-    
-  
-  //     const imageResponse = await axios.get(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${artArray[i]}?=&=&primaryImage`)
-  //     const imageURL = imageResponse.data.primaryImage
-  //     appendImage(imageURL)
-  //     return imageURL
-  //   }
-  
-  //   catch (error) {
-  //     console.error(error)
-  //   }
-  // }
-
-
-
-  // Create dynamic image tag and append to DOM
-   
-  // function appendImage(imageSrc) {
-  //   removeImage()
-  //   const imageDiv = document.querySelector('#art-image')
-  //   const img = document.createElement('img')
-  //   img.src = imageSrc
-  //   imageDiv.append(img)
-  // }
-
-
-
-
-  // Remove previous art image
- 
-  // function removeImage() {
-  //   const removeImageDiv = document.querySelector('#art-image')
-  //   while (removeImageDiv.lastChild) {
-  //     removeImageDiv.removeChild(removeImageDiv.lastChild)
-  //   }
-  // }
-
+}
