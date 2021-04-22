@@ -1,11 +1,12 @@
 * {
-  background-color:rgb(250, 241, 241)
+  background-color:rgb(250, 241, 241);
   text-align: center;
   margin: 0 auto;
+
 }
 
 body {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -27,8 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 40px;
-  margin: 30px;
+
   width: 30%;
 }
 
@@ -42,6 +42,7 @@ body {
 #artwork-info {
   display: flex;
   flex-direction: column;
+  margin: 10%;
   border: 4px rgba(19, 19, 18, 0.795);
 }
 
@@ -58,11 +59,11 @@ img {
 }
 
 #artwork-info h3 {
-  text-align: center
+  text-align: center;
 }
 
 #artwork-info h5 {
-  text-align: center
+  text-align: center;
   
 }
 
@@ -75,16 +76,22 @@ img {
   margin-right: auto;
 }
 
+select {
+  max-height: 50%;
+  max-width: 50%;
+}
+
 
 /* Iphone series */
 
 @media all and (max-width: 414px) {
   * {
   text-align: center;
+
 }
 
 body {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -108,6 +115,7 @@ body {
   justify-content: center;
   height: 40px;
   margin: 0;
+  width: 30%;
 }
 
 #submit-button {
@@ -123,32 +131,35 @@ body {
   border: 4px rgba(19, 19, 18, 0.795);
 }
 
-#met-jpg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
 img {
-  height: auto;
+  height: 60%;
+  width: 60%;
   margin: 50px;
   border: 1px solid rgb(1, 2, 0);
 }
 
+#met-jpg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 #artwork-info h3 {
-  text-align: center
+  text-align: center;
 }
 
 #artwork-info h5 {
-  text-align: center
+  text-align: center;
   
 }
 
 #artwork-info img {
   
   padding-bottom: 0;
-  width: 300px;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 }

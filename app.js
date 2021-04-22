@@ -81,7 +81,7 @@ function renderArt(art) {
 
 }
 
-// Remove previous info
+// Remove previous 
 function removeRender() {
   const removeDiv = document.querySelector('#artwork-info')
   while (removeDiv.lastChild) {
