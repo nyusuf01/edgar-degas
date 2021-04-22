@@ -24,6 +24,10 @@ body {
   width: 100%;
 }
 
+p {
+  margin: 20px;
+}
+
 #submit-button {
   display: block;
   margin-left: auto;
@@ -70,10 +74,14 @@ img {
 }
 
 select {
-  max-height: 70%;
-  max-width: 70%;
+  max-height: 60%;
+  max-width: 60%;
+  margin: 30px;
 }
 
+footer {
+  font-size: 50%;
+}
 
 /* Iphone series */
 
