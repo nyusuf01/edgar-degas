@@ -36,7 +36,7 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 #### MVP 
 
 - Allows users to select art piece from drop down menu
-- Display image, title, Bio ( year of birth until year of death ) 
+- Display image, title, year of work, classification, department to be found in. 
 - Delete previously rendered content upon new search
 
 
