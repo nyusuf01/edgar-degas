@@ -51,11 +51,11 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 19| Prompt / Wireframes / Priority Matrix / Timeframes 
-|April 20| HTML / Pseudocode / Add axios API call
-|April 21| Pulling appropriate date from API / second testing
-|April 22| JS clear results / CSS
-|April 23| Presentation
+|April 19| Prompt / Wireframes / Priority Matrix / Timeframes | C
+|April 20| HTML / Pseudocode / Add axios API call | C
+|April 21| Pulling appropriate date from API / second testing | C
+|April 22| JS clear results / CSS | C
+|April 23| Presentation | C
 
 
 ## Priority Matrix
