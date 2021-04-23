@@ -79,6 +79,18 @@ select {
   margin: 30px;
 }
 
+.inline-block {
+  width: 225px;
+}
+
+#left {
+  margin-right: 20px;
+}
+
+#right {
+  margin-left: 20px;
+}
+
 footer {
   font-size: 50%;
 }
