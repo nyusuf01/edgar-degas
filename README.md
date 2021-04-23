@@ -13,6 +13,8 @@ It can be daunting to navigate through its magnificent works, so we decided to t
 
 Creating a virtual gallery that highlights a number of artworks by Edgar Degas from the vast collection presented at the MET.
 
+[Deployed Site] (https://nyusuf01.github.io/edgar-degas/)
+
 ## API and Data Sample
 Artwork title : "Edouard Manet, seated, Holding his hat"
 ```{
