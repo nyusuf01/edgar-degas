@@ -5,7 +5,9 @@
 
 ## Edgar Degas at the MET
 
-A focus on Edgar Degas at the MET.
+One of the largest and finest art museums, The Metropolitan Museum of Art is one of the world’s largest and finest art museums. Divided among 17 curatorial departments, it is home to more than two million works of art spanning 5,000 years of world culture from every part of the globe.
+
+It can be daunting to navigate through its magnificent works, so we decided to turn our focus on one particular French impressionist artist, Edgar Degas. Famous for his pastel drawings and oil paintings, Degas also produced bronze sculptures, prints and drawings. Here, we highlight some of his more important works.
 
 ## Project Description
 
