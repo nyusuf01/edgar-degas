@@ -85,7 +85,8 @@ Artwork title : "Edouard Manet, seated, Holding his hat"
   while (removeDiv.lastChild) {
     removeDiv.removeChild(removeDiv.lastChild)
   }
-}```
+}
+```
 
 
 
